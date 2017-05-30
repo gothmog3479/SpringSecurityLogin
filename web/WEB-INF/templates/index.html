@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" th:href="@{/static/images/favicon.ico}"/>
+    <title>Admin</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/login.css}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1 th:text="${hello}"></h1>
+<div class="container">
+    <img th:src="@{/static/images/access_denied.png}" class="img-responsive center-block" width="367" height="498" alt="Logo" />
+</div>
+</body>
+</html>
